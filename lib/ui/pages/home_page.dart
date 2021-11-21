@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  BoxDecoration buildBoxDecoration() => BoxDecoration(
+  BoxDecoration buildBoxDecoration() => const BoxDecoration(
       gradient: LinearGradient(
           colors: [Colors.pink, Colors.purpleAccent],
           begin: Alignment.topCenter,

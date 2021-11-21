@@ -35,6 +35,6 @@ class PageProvider extends ChangeNotifier {
     html.window.history.pushState(null, 'none', '#/${_pages[index]}');
 
     scrollController.animateToPage(index,
-        duration: Duration(milliseconds: 300), curve: Curves.easeInOut);
+        duration: const Duration(milliseconds: 300), curve: Curves.easeInOut);
   }
 }
